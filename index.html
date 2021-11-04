@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body onmousemove="showCoords(event);">
+    <div class="block">
+        <div id="box_left">
+            <div class="wraper_svg1">
+                <svg width="10" height="800" id="svg11">
+                    <rect width="10" height="0" x="0" y="820" fill="black" id="rect1" ></rect>
+                </svg>
+            </div>
+            <div id="box1">
+                <svg width="70" height="30" id="svg_p1" style="float: left;">
+                    <rect width="0" height="2" x="0" y="20" fill="black" id="scale_p1" ></rect>
+                </svg>
+                <p style="text-align: right; width: 120px; height: 20px; float: right; margin: 5px 0;" id="p_hover1">CONSULTANCY</p>
+                <svg width="70" height="30" id="svg_p1" style="float: left;">
+                    <rect width="0" height="2" x="0" y="20" fill="black" id="scale_p2" ></rect>
+                </svg>
+                <p style="text-align: right; width: 120px; height: 20px; float: right; margin: 5px 0;" id="p_hover2">DEVELOPMENT</p>
+                <svg width="130" height="30" id="svg_p1" style="float: left;">
+                    <rect width="0" height="2" x="0" y="20" fill="black" id="scale_p3" ></rect>
+                </svg>
+                <p style="text-align: right; width: 60px; height: 20px; float: right; margin: 5px 0;" id="p_hover3">UI / UX</p>
+            </div>
+            <div class="wraper_svg2">
+                <svg width="300" height="100" style=" float:left;  top:300px; position:realtive;">
+                    <rect width="1" height="50" x="10" y="20" fill="black" id="stick1" ></rect>
+                    <rect width="1" height="50" x="20" y="20" fill="black" id="stick2" ></rect>
+                </svg>
+                <p id="ex">EXPLORE</p>
+            </div>
+        </div>
+        <div id="menu" onclick="f_menu(this);">
+            <div id="m1" class="m_o"></div>
+            <div id="mm1"></div>
+            <div id="m2" class="m_o"></div>
+            <div id="m3" class="m_o"></div>
+            <div id="m4" class="m_o"></div>
+            <div id="m5" class="m_o"></div>
+            <div id="m6" class="m_o"></div>
+            <div id="m7" class="m_o"></div>
+            <div id="mm7"></div>
+            <div id="m8" class="m_o"></div>
+            <div id="m9" class="m_o"></div>
+        </div>
+        <img src="image1.png" id="img1">
+    </div>
+    <div id="content">
+        <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </p>
+        <p class="text">
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+            content here', making it look like readable English.
+        </p>
+        <p class="text">
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up
+            one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+        </p>
+        <p class="text">
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
+            you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+        </p>
+        <p class="text_sl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <div class="navigator">
+        <svg width="200" height="20" id="nav_text" style="stroke-width: 2px; left:100px;">
+            <rect width="10" height="10" x="120" y="0" fill="black" id="n1" ></rect>
+            <rect width="10" height="10" x="140" y="0" fill="black" id="n2" ></rect>
+            <rect width="10" height="10" x="160" y="0" fill="black" id="n3" ></rect>
+            <rect width="10" height="10" x="180" y="0" fill="black" id="n4" ></rect>
+        </svg>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
